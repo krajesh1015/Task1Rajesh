@@ -1,0 +1,135 @@
+.header
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.sub
+{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+.sub a{
+    display: inherit;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+.main
+{
+    display: flex;
+    height: 75vh;
+}
+.ad > video
+{
+    height: 100%;
+}
+.ad{
+    overflow: hidden;
+}
+@media only screen and (max-width:450px) {
+    .main
+    {
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        margin: 0;
+    }
+    .ad > video
+    {
+        width: 100%;
+        height: unset;
+    }
+    .ad{
+        overflow: unset;
+    }
+}
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0,0,0,0); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+.middle
+{
+    padding: 0 2%;
+    text-align: justify;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.middle > img
+{
+    padding: 1%;
+    /* display: block; */
+}
+#aimg:hover{
+    width: 30%; height: 35%;
+}
+#bimg:hover{
+    width: 20%; height: 35%;
+}
+i{
+    color: white;
+    margin-right: 5px;
+}
+i:hover{
+    color:lightcoral;
+}
+.footer
+{
+    background-color:skyblue;
+    color:slategrey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    height: 19vh;
+}
+@media only screen and (max-width:450px) {
+    .main
+    {
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        margin: 0;
+    }
+    .ad > video
+    {
+        width: 100%;
+        height: unset;
+    }
+    .ad{
+        overflow: unset;
+    }
+}
+@media only screen and (min-width:451px) and (max-width:900px) {
+    body {
+        background-color: rgb(146, 211, 137);
+      }
+    .main > div
+    {
+        overflow: scroll;
+    }
+}
+#cimg:hover{
+    width: 30%; height: 40%;
+}
+#cimg:hover{
+    width: 30%; height: 40%;
+}
